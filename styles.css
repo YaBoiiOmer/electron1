@@ -1,0 +1,11 @@
+* {
+    background-color: #525252;
+}
+.bar{
+    background-color: #414141;
+    height: 30px;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
