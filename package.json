@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/YaBoiiOmer/electron1/issues"
   },
-  "homepage": "https://github.com/YaBoiiOmer/electron1#readme"
+  "homepage": "https://github.com/YaBoiiOmer/electron1#readme",
+  "devDependencies": {
+    "electron": "^20.0.2"
+  }
 }
