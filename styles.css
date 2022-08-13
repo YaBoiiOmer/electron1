@@ -1,11 +1,9 @@
 * {
     background-color: #525252;
+    margin: 0;
+    padding: 0;
 }
 .bar{
     background-color: #414141;
     height: 30px;
-    padding: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 1000;
 }
