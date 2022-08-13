@@ -6,6 +6,7 @@ const createWindow = () =>{
         height:600,
         frame: false
     });
+    win.setResizable(false);
     win.loadFile('index.html')
 }
 

@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-.bar{
+.titlebar{
     background-color: #414141;
-    height: 30px;
+    height: 35px;
+    -webkit-app-region: drag;
 }
