@@ -3,8 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
 .titlebar{
     background-color: #414141;
     height: 35px;
     -webkit-app-region: drag;
+}
+
+.titlebar .buttons{
+    height: 25px;
+    width: 25px;
+    border-radius: 60%;
+    display: block;
+}
+.titlebar .buttons #close{
+    background-color: red;
 }
