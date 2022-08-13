@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron')
+
 require('electron-reload')(__dirname);
 const createWindow = () =>{
     const win = new BrowserWindow({
@@ -8,6 +9,7 @@ const createWindow = () =>{
     });
     win.setResizable(false);
     win.loadFile('index.html')
+    // add button check
 }
 
 app.whenReady().then(() => {

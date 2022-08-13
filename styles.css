@@ -1,21 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif');
+
 * {
     background-color: #525252;
     margin: 0;
     padding: 0;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 18px;
+    font-family: 'Roboto Serif', serif;
 }
-
-.titlebar{
+.titlebar *{
     background-color: #414141;
-    height: 35px;
+    height: 40px;
     -webkit-app-region: drag;
+    position: fixed;
 }
-
-.titlebar .buttons{
-    height: 25px;
+#text{
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    height: 10px;
+    color: #e0e0e0;
+}
+.buttons > div {
     width: 25px;
-    border-radius: 60%;
-    display: block;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    left: 370px;
+    top: 7px;
 }
-.titlebar .buttons #close{
-    background-color: red;
+.buttons > #close{
+    background-color: #eb5a55;
+}
+.buttons > #minimize{
+    background-color: #f4bb40;
+    position: fixed;
+    left: 340px;
 }
