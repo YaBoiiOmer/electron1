@@ -14,7 +14,7 @@
 .titlebar *{
     background-color: #414141;
     height: 40px;
-    -webkit-app-region: drag;
+    /* -webkit-app-region: drag; ADD THROUGH JAVASCRIPT !! */
     position: fixed;
 }
 #text{
@@ -40,4 +40,7 @@
     background-color: #f4bb40;
     position: fixed;
     left: 340px;
+}
+#close:hover{
+    cursor: grab;
 }

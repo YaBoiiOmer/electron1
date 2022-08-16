@@ -17,7 +17,7 @@ const createWindow = () =>{
     win.loadFile('index.html')
     // add button check
     ipcMain.on('exit-app', () => {
-        console.log('clicked on something')
+        app.quit()
     })
 }
 
