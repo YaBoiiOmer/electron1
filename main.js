@@ -19,6 +19,9 @@ const createWindow = () =>{
     ipcMain.on('exit-app', () => {
         app.quit()
     })
+    ipcMain.on('minimize-app', ()=>{
+        win.minimize();
+    })
 }
 app.whenReady().then(() => {
     createWindow()

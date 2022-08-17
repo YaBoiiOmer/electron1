@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/YaBoiiOmer/electron1#readme",
   "devDependencies": {
-    "electron": "^20.0.2"
+    "electron": "^6.1.12"
   },
   "dependencies": {
     "electron-reload": "^2.0.0-alpha.1"
