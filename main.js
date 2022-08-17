@@ -20,7 +20,6 @@ const createWindow = () =>{
         app.quit()
     })
 }
-
 app.whenReady().then(() => {
     createWindow()
 })
